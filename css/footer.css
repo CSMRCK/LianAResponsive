@@ -1,0 +1,13 @@
+.footer {
+  position: relative;
+  border-top: 2px solid transparent;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+.footer__logo {
+  border: 1px solid blueviolet;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: forestgreen;
+}

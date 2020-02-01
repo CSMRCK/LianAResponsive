@@ -1,0 +1,11 @@
+.intro {
+  height: 650px;
+  width: auto;
+  background-image: url("../img/background1.jpg");
+}
+.intro .intro__inner {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: antiquewhite;
+}

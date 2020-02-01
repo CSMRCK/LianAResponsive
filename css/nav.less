@@ -1,0 +1,25 @@
+//main: style.less
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  @media @mobile {
+    display: none;
+  }
+}
+
+.nav__link {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  color: @font_main;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    color: @font_secondary;
+    transition: color .4s linear;
+  }
+}

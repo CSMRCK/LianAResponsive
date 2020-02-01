@@ -1,0 +1,40 @@
+//main: style.less
+
+.collage__list {
+  margin: 2.18rem 0;
+  height: 60px;
+  width: auto;
+  border-top: 1px solid @lightGray;
+  border-bottom: 1px solid @lightGray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media @mobile{
+    height: 150px;
+  }
+}
+
+.collage_fist {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  li {
+    text-transform: uppercase;
+    padding: 1.5rem;
+    display: inline;
+    @media @tablet{
+      padding: 1rem;
+    }
+
+    a{
+      color: @font_main;
+      text-decoration: none;
+      &:hover{
+        color: @font_secondary;
+        transition: color .4s linear;
+      }
+    }
+  }
+
+}

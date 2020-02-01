@@ -1,0 +1,47 @@
+//main: style.less
+
+.collagephoto {
+  display: flex;
+  flex-wrap: wrap;
+  //border: 2px solid sienna;
+  justify-content: center;
+}
+
+.collagephoto__col {
+  flex-basis: 380px;
+  padding: 1rem 0.5rem;
+  //border: 2px solid slateblue;
+  img {
+    width: 360px;
+    padding-bottom: 2rem;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s linear;
+    &:hover{
+      filter: hue-rotate(90deg);
+    }
+    @media @mobile {
+      width: 300px;
+    }
+
+  }
+
+  @media @mobile {
+    flex-basis: 50%;
+  }
+
+  @media @mobile-sm {
+    flex-basis: 100%;
+  }
+}
+.lil{
+  height: 250px;
+}
+.last{
+  width: auto;
+  height: 450px;
+}
+.biggie{
+  height: 350px;
+}
+
+

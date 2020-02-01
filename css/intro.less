@@ -1,0 +1,50 @@
+//main: style.less
+
+.intro {
+  height: 40.625rem;
+  width: auto;
+  background: url("../img/background1.jpg") black;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  @media @mobile{
+    height: 20rem;
+  }
+}
+.intro__inner{
+  letter-spacing: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.intro__title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 60px;
+  background-color: @font_secondary;
+  @media @mobile{
+    height: 120px;
+    padding: 0 1rem;
+  }
+
+  .title{
+    color: @backgroundWhite;
+    font-size: 3rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    @media @mobile{
+      font-size:2rem;
+    }
+  }
+}
+.intro__text{
+  padding-top: 2rem;
+  .another{
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: @font_secondary;
+  }
+}
